@@ -1,5 +1,5 @@
 {
-  "name": "vis_pie",
+  "name": "vis-pie",
   "version": "0.0.0",
   "description": "A small test visualisation plugin for Kibana",
   "main": "index.js",

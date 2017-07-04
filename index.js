@@ -5,7 +5,7 @@ export default function (kibana) {
     require: ['elasticsearch'],
 
     uiExports: {
-      visTypes: ['plugins/kibana-vis-pie/kibana-vis-pie']      
+      visTypes: ['plugins/vis-pie/vis-pie']      
     },
 
   });

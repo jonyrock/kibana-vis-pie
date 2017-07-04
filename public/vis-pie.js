@@ -3,6 +3,8 @@ import TemplateVisTypeProvider from 'ui/template_vis_type/template_vis_type';
 import VisSchemasProvider from 'ui/vis/schemas';
 
 import './less/main.less';
+import './vis-pie-controller';
+
 import template from './templates/index.html';
 import paramsTemplate from './templates/params.html';
 
@@ -15,8 +17,8 @@ function PieVisProvider(Private) {
 
   // Return a new instance describing this visualization.
   return new TemplateVisType({
-    name: 'kibana-vis-pie',
-    title: 'VisPie',
+    name: 'vis-pie',
+    title: 'Vis Pie',
     icon: 'fa-bars',
     description: 'A nice test vis plugin',
     template: template,
