@@ -4,7 +4,7 @@
   "description": "A small test visualisation plugin for Kibana",
   "main": "index.js",
   "kibana": {
-    "version": "5.4.0"
+    "version": "5.4.2"
   },
   "scripts": {
     "lint": "eslint",
